@@ -317,15 +317,20 @@
     justify-content: center;
     margin: 20px;
   }
-  .masInfo {
+  
+ .masInfo {
     background-color: #d9d9d9;
-    color: #f20cb5; /* Letras */ 
+    color: #f20cb5; /* Letras */
+    border: 0; 
     border-radius: 30px; /* Bordes redondeados */
     padding: 5px 20px; /* Espaciado interno */
     font-size: 24px; /* Tamaño de fuente */
+    font-weight: 700;
+    letter-spacing: 2px;
     display: block; /* Para centrar horizontalmente */
     margin: 0 auto; /* Para centrar horizontalmente */
   }
+
   .button label {
     height: 15px;
     width: 15px;
@@ -335,6 +340,7 @@
     cursor: pointer;
     transition: all 0.5s ease;
   }
+
   .button label.active {
     width: 35px;
   }
@@ -350,6 +356,9 @@
   #two:checked ~ .button .two {
     width: 35px;
   }
+
+
+
   input[type="radio"] {
     display: none;
   }
