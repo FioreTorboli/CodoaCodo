@@ -214,10 +214,11 @@
     border-radius: 30px; /* Bordes redondeados */
     padding: 18px 60px; /* Espaciado interno */
     font-size: 24px; /* Tamaño de fuente */
+    font-family: Poppins, sans-serif;
     cursor: pointer; /* Cambio de cursor al pasar por encima */
     display: block; /* Para centrar horizontalmente */
     margin: 0 auto; /* Para centrar horizontalmente */
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   
   .adquirir-curso:hover {
@@ -265,6 +266,7 @@
     padding: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.4s ease;
+    position: relative;
   }
   .main-card .cards .card:hover {
     transform: translateY(-15px);
@@ -285,9 +287,10 @@
     object-fit: cover;
   }
   .card .content .name {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
     color: #ca38f2;
+    margin-bottom: 50px;
   }
   .card .content .media-icons {
     margin-top: 10px;
@@ -327,8 +330,25 @@
     font-size: 24px; /* Tamaño de fuente */
     font-weight: 700;
     letter-spacing: 2px;
+    text-align: center;
     display: block; /* Para centrar horizontalmente */
-    margin: 0 auto; /* Para centrar horizontalmente */
+    /*margin: 0 auto; /* Para centrar horizontalmente */
+    margin-bottom: 18px;
+    margin-right: 18px;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  a button:hover{
+    background-color:#ca38f259;
+    color:white;
+    cursor: pointer;
   }
 
   .button label {
@@ -393,132 +413,132 @@
   
   /*FINAL CAROUSEL*/
   
-  /*FOOTER*/
-  
-  footer {
-    display: flex;
-    background-color: #331958;
-    position: relative;
-    padding: 15px;
-    bottom: 0;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 210px;
-  }
-  
-  .footer .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-  }
-  
-  .footer .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-  }
-  
-  .footer .left img {
-    display: flex;
-    justify-content: left;
-    width: auto;
-    height: 75px;
-    object-fit: scale-down;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 60px;
-    margin-left: 90px;
-    margin-bottom: 10px;
-  }
-  
-  .footer .left p {
-    display: flex;
-    justify-content: left;
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    margin-top: 80px;
-    margin-left: 70px;
-  }
-  
-  .footer .right p {
-    display: flex;
-    justify-content: right;
-    font-family: Poppins, sans-serif;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-right: 90px;
-    margin-top: 25px;
-  }
-  
-  .footer .right .icon-redes img {
-    display: flex;
-    flex-direction: row;
-    float: left;
-    justify-content: right;
-    align-items: center;
-    width: auto;
-    height: 60px;
-    margin-top: 5px;
-    margin-right: 10px;
-    transition-duration: 1s;
-  }
-  
-  .footer .right .icon-redes .in:hover {
-    transform: scale(1.2);
-    background-color: #0511f2be;
-    border-radius: 30%;
-    overflow: hidden;
-  }
-  
-  .footer .right .icon-redes .ig:hover {
-    transform: scale(1.2);
-    background-color: #ca38f2be;
-    border-radius: 30%;
-    overflow: hidden;
-  }
-  
-  .arrows {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .arrows .arrow-prev img {
-    display: flex;
-    float: left;
-    justify-content: center;
-    width: auto;
-    height: 70px;
-    margin-top: 30px;
-  }
-  
-  .arrows .arrow-next img {
-    display: flex;
-    float: right;
-    justify-content: center;
-    width: auto;
-    height: 70px;
-    margin-top: 30px;
-  }
-  
-  .arrow-prev:hover {
-    cursor: pointer;
-    transform: scale(0.8);
-  }
-  .arrow-next:hover {
-    cursor: pointer;
-    transform: scale(0.8);
-  }
+ /*FOOTER*/
+footer{
+  display: flex;
+  background-color: #331958;
+  position: relative;
+  padding: 15px;
+  bottom: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 210px;
+}
+
+.footer .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.footer .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+
+.footer .left img{
+  display:flex;
+  justify-content: left;
+  width: auto;
+  height: 75px;
+  object-fit: scale-down;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+.footer .left p{
+  display:flex;
+  justify-content: left;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.footer .right p{
+  display: flex;
+  justify-content: right;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+.footer .right .icon-redes img{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: right;
+  align-items: center;
+  width: auto;
+  height: 60px;
+  margin-top: 5px;
+  margin-right: 10px;
+  transition-duration: 1s;
+}
+
+.footer .right .icon-redes .in:hover{
+  transform: scale(1.2);
+  background-color: #0511f2be;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.footer .right .icon-redes .ig:hover{
+  transform: scale(1.2);
+  background-color:#ca38f2be;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.arrows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows .arrow-prev img{
+  display: flex;
+  float: left;
+  justify-content:center;
+  width: auto;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.arrows .arrow-next img{
+  display: flex;
+  float: right;
+  justify-content:center;
+  width: auto;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.arrow-prev:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.arrow-next:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+}
