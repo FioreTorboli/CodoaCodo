@@ -1,0 +1,515 @@
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ca38f2;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+}
+
+.logo-color {
+  display: flex;
+  float: left;
+  width: auto;
+  height: 60px;
+  object-fit: scale-down;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  margin-right: 90px;
+  justify-content: center;
+}
+
+.link-nav a {
+  display: flex;
+  float: left;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.link-carrito img {
+  display: flex;
+  width: auto;
+  height: 60px;
+  object-fit: scale-down;
+  list-style: none;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.inicio-sesion a {
+  display: flex;
+  float: left;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.btm {
+  display: flex;
+  float: left;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  color: #f20cb6;
+  text-transform: uppercase;
+}
+
+.header button {
+  background-color: white;
+  outline-color: #3319582a;
+  outline-style: solid;
+  border: 0;
+  padding: 18px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.link-nav a:hover {
+  color: #0511f2;
+}
+
+.inicio-sesion a:hover {
+  color: #0511f2;
+}
+
+.header button:hover {
+  background-color: #d9d9d9;
+  color: #0511f2;
+}
+
+.link-carrito img:hover {
+  transform: scale(1.1);
+}
+
+/*FINAL-HEADER*/
+
+/*BODY*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #341959;
+  width: 100%;
+  max-width: 100%;
+  height: 940px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+/*CARDS2*/
+
+.card {
+  display: flex;
+  flex-direction: row; /* Cambiado a fila para todos los dispositivos */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  margin: 50px;
+}
+.card-img-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column; /* Organiza la imagen y el h1 en columna */
+  align-items: center; /* Centra la imagen y el h1 horizontalmente */
+  justify-content: center; /* Centra la imagen y el h1 verticalmente */
+  width: auto;
+  flex: 0.8; /* La imagen y el h1 ocupan el espacio disponible */
+}
+.card-img-container img {
+  width: 50%;
+}
+.card-body-container {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column; /* Organiza el h1 y el párrafo en columna */
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: flex-start; /* Alinea el contenido a la izquierda */
+  flex: 3; /* El texto ocupa el doble del espacio que la imagen y el h1 */
+  margin: 0 60px; /* Ajusta el margen a la derecha */
+  color: #341959;
+  font-weight: bold;  
+}
+.card-title {
+  display: flex;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0; /* Elimina el margen superior */
+  color: #2793f2;
+}
+
+@media screen and (min-width: 768px) {
+}
+/* Los estilos para dispositivos más grandes se mantienen igual */
+
+/*FINAL CARDS*/
+
+
+/*LISTAS*/
+.list-container {
+  margin: 50px;
+  color: white;
+  display: block; /* Cambiar a bloque para que aparezcan uno debajo del otro */
+}
+
+.list-title {
+  font-size: 24px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  font-size: 18px;
+  margin-top: 10px;
+  width: 100%; /* Añade esto para que cada elemento ocupe todo el ancho disponible */
+  display: block; /* Cambiar a bloque para que aparezcan uno debajo del otro */
+}
+
+.custom-list li:before {
+  content: ">";
+  margin-right: 5px;
+  display: inline-block; /* Mantener el símbolo ">" en línea con el texto */
+}
+/*FINAL LISTAS*/
+
+/*BOTON*/
+.adquirir-curso {
+  background-color: #2793f2; /* Celeste */
+  color: white; /* Letras blancas */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 18px 60px; /* Espaciado interno */
+  font-size: 24px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambio de cursor al pasar por encima */
+  display: block; /* Para centrar horizontalmente */
+  margin: 0 auto; /* Para centrar horizontalmente */
+  margin-bottom: 30px;
+}
+
+.adquirir-curso:hover {
+  background-color: #0511f2; /* Cambio de color al pasar por encima */
+}
+
+/*FINAL BOTON*/
+
+/*CAROUSEL*/
+.sec-carousel {
+  background-color: #f20cb5;
+}
+.container {
+  max-width: 950px;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.carousel-title {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.container .main-card {
+  display: flex;
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  width: 200%;
+  transition: 1s;
+}
+#two:checked ~ .main-card {
+  margin-left: -100%;
+}
+.container .main-card .cards {
+  display: flex;
+  justify-content: center; /* Centra las tarjetas dentro de cada grupo */
+  width: 100%;
+  gap: 10px; /* Espacio entre las tarjetas */
+}
+.main-card .cards .card {
+  width: calc(100% / 3 - 20px); /* Ajuste de ancho para 3 tarjetas */
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+.main-card .cards .card:hover {
+  transform: translateY(-15px);
+}
+.cards .card .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card .content .img img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card .content .name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ca38f2;
+}
+.card .content .media-icons {
+  margin-top: 10px;
+  display: flex;
+}
+.media-icons a {
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 4px;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #FF676D;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover {
+  color: #FF676D;
+  background-color: #fff;
+  border-color: #FF676D;
+}
+.container .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.masInfo {
+  background-color: #d9d9d9;
+  color: #f20cb5; /* Letras */ 
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 5px 20px; /* Espaciado interno */
+  font-size: 24px; /* Tamaño de fuente */
+  display: block; /* Para centrar horizontalmente */
+  margin: 0 auto; /* Para centrar horizontalmente */
+}
+.button label {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.button label.active {
+  width: 35px;
+}
+#one:checked ~ .button .one {
+  width: 35px;
+}
+#one:checked ~ .button .two {
+  width: 15px;
+}
+#two:checked ~ .button .one {
+  width: 15px;
+}
+#two:checked ~ .button .two {
+  width: 35px;
+}
+input[type="radio"] {
+  display: none;
+}
+.view-all-courses {
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 24px;
+  text-align: right; /* Alinea el texto a la izquierda */
+  text-decoration: none;
+  padding: 10px 0;
+}
+.view-all-courses:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .main-card .cards .card {
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media (max-width: 600px) {
+  .main-card .cards {
+    flex-wrap: wrap;
+  }
+  .main-card .cards .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/*FINAL CAROUSEL*/
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  background-color: #331958;
+  position: relative;
+  padding: 15px;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 210px;
+}
+
+.footer .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.footer .left img {
+  display: flex;
+  justify-content: left;
+  width: auto;
+  height: 75px;
+  object-fit: scale-down;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+.footer .left p {
+  display: flex;
+  justify-content: left;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.footer .right p {
+  display: flex;
+  justify-content: right;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+.footer .right .icon-redes img {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: right;
+  align-items: center;
+  width: auto;
+  height: 60px;
+  margin-top: 5px;
+  margin-right: 10px;
+  transition-duration: 1s;
+}
+
+.footer .right .icon-redes .in:hover {
+  transform: scale(1.2);
+  background-color: #0511f2be;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.footer .right .icon-redes .ig:hover {
+  transform: scale(1.2);
+  background-color: #ca38f2be;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows .arrow-prev img {
+  display: flex;
+  float: left;
+  justify-content: center;
+  width: auto;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.arrows .arrow-next img {
+  display: flex;
+  float: right;
+  justify-content: center;
+  width: auto;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.arrow-prev:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.arrow-next:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+}
