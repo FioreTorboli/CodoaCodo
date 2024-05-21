@@ -366,7 +366,7 @@ img{
 }
 
 
-/*CARDS*/
+/*CARDS LANDING*/
 
 .cards{
     display: flex;
@@ -489,6 +489,8 @@ img{
     cursor: pointer;
 }
 
+
+/*FOOTER*/
 footer{
     display: flex;
     background-color: #331958;
