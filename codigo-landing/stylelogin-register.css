@@ -225,6 +225,9 @@ footer {
   letter-spacing: 0.10em;
 }
 
+form .nocuenta a{
+  color: #341959;
+}
 .noCuenta a:hover{
   color:#0511f2;
 }
