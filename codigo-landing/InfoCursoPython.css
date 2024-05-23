@@ -37,6 +37,7 @@
   }
   .card-img-container img {
     width: 50%;
+    padding-top: 1rem;
   }
   .card-body-container {
     display: flex;
@@ -47,11 +48,13 @@
     flex: 3; /* El texto ocupa el doble del espacio que la imagen y el h1 */
     margin: 0 60px; /* Ajusta el margen a la derecha */
     color: #341959;
-    font-weight: bold;  
+    font-weight: bold;
+    font-size: 19px;  
+    letter-spacing: 1px;
   }
   .card-title {
     display: flex;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
     font-weight: 600;
     font-size: 36px;
     margin: 0; /* Elimina el margen superior */
@@ -69,7 +72,6 @@
   .list-container {
     margin: 50px;
     color: white;
-    display: block; /* Cambiar a bloque para que aparezcan uno debajo del otro */
   }
   
   .list-title {
@@ -79,6 +81,7 @@
   .custom-list {
     list-style: none;
     padding-left: 0;
+    display: block;
   }
   
   .custom-list li {
@@ -129,13 +132,15 @@
   }
   .carousel-title {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     color: #fff;
     margin-bottom: 20px;
+    letter-spacing: 0.3rem;
   }
+
   .container .main-card {
     display: flex;
-    justify-content: center; /* Centra las tarjetas horizontalmente */
+    justify-content: right; /* Centra las tarjetas horizontalmente */
     width: 200%;
     transition: 1s;
   }
