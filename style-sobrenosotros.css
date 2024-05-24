@@ -2,7 +2,6 @@
 
 section{
     font-family: poppins, sans-serif;
-    top: 100%;
   }
   
   .sobre_nosotros{
@@ -14,10 +13,22 @@ section{
     border-radius: 0%;
     width: length;
     height: length;
-    margin: 0px;
+    margin: 0;
     outline-color: #3319582a;
     outline-style: solid;
     position: relative;
+  }
+
+  .sobre_nosotros p{
+    padding: 5px 15px;
+  }
+
+  .sobre_nosotros h1{
+    padding: 5px 15px;
+  }
+
+  .sobre_nosotros h2{
+    padding: 5px 15px;
   }
   
   .sobre_nosotros_titulo1{
@@ -133,6 +144,15 @@ section{
     letter-spacing: 2px;
     margin-left: 20px;
   }
+
+  .sobre_nosotros_lista ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.sobre_nosotros_texto ul li {
+    margin-bottom: 10px;
+}
   
   .primera_palabra {
     color: rgb(8, 8, 8); /* Cambia el color de la primera palabra */
