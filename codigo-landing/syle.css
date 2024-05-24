@@ -141,11 +141,11 @@ i{
     }
 
     input{
-        width: 18em;
+        width: 16em;
     }
 
     ::placeholder{
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .masbuscados img{
