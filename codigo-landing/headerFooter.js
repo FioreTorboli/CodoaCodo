@@ -5,7 +5,7 @@ header.innerHTML = `
 <div class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="landing.html"><img src="./img/1LOGO.png" alt="logo"></a>
+            <a href="index.html"><img src="./img/1LOGO.png" alt="logo"></a>
         </div>
 
         <input type="checkbox" id="check">
