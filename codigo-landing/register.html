@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="./styleHeaderFooter.css">
+    <link rel="stylesheet" href="./style-headerFooter.css">
     <link rel="stylesheet" href="./stylelogin-register.css" />
     <link rel="stylesheet" href="./mediaquerylogin-register.css" />
   </head>
@@ -16,7 +16,7 @@
 
     <main class="main">
       <div class="flecha">
-        <img src="./icons/arrow-w.png" alt="" />
+        <img src="./img/arrow-w.png" alt="" />
         <a class="flecha" href="">Volver al inicio</a>
       </div>
 
@@ -25,21 +25,21 @@
         <div class="form__group">
           <div class="form__input-group">
             <p>Nombre/s</p>
-            <input type="text" class="form__input_group" />
+            <input type="text" class="form__input_group"  />
           </div>
           <div class="form__input-group">
             <p>Apellido/s</p>
-            <input type="text" class="form__input_group" />
+            <input type="text" class="form__input_group"  />
           </div>
         </div>
 
         <p>Correo electrónico</p>
-        <input type="email" class="form__input" />
+        <input type="email" class="form__input email"  />
 
         <p>Contraseña</p>
-        <input type="password" class="form__input" />
+        <input type="password" class="form__input password"  />
 
-        <a href="./index.html" class="btn btn--submit">REGISTRARSE</a>
+        <button type="submit" href="./index.html" class="btn btn--submit">REGISTRARSE</button>
 
         <p class="siCuenta">
           ¿Ya tienes una cuenta?
@@ -52,5 +52,6 @@
     </footer>
 
     <script src="headerFooter.js" ></script>
+    <script src="./validacionForm.js"></script>
   </body>
 </html>
